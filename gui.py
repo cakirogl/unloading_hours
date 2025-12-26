@@ -167,7 +167,6 @@ if submitted:
     with right:
         st.info(
             "Prediction is produced by a LightGBM regression model trained on the provided dataset. "
-            #"Use within the displayed feature ranges for most reliable results."
         )
 
     with st.expander("Show the input used for prediction"):
